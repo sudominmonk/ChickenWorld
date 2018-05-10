@@ -7,9 +7,73 @@
     width:130px;
 }
 #cw-menuBar{
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(241, 241, 241);
     height:100px;
 }
 #wraper{
     margin:10px 30px;
 }
+.Berlin-Font{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 1px 2px black;
+    font-size: 70px;
+    color:rgb(115, 115, 115);
+}
+
+.topnav{
+    width:100%;
+}
+.topnav > div{
+    float:left;
+    padding: 12px 16px;
+    background-color:#00c056;
+    font-weight: 600;
+    color:#fff;
+}
+.icon{
+    display:none;
+}
+
+ 
+
+  
+  
+  /* @media screen and (max-width: 992px) {
+    /* .topnav a:not(:first-child) {display: none;background-color: #333;} * /
+    #navmenu {margin-top:100px;}
+    .Berlin-Font{
+        font-size: 40px;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+      }
+  }
+  @media screen and (max-width: 660px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    
+  }
+  
+  @media screen and (max-width: 660px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  @media screen and (max-width: 402px) {
+    .Berlin-Font{
+        font-size: 20px;
+        text-shadow: 1px 1px black;
+    }
+  } */
