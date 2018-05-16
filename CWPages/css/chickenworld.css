@@ -1,79 +1,51 @@
-#cw-logo{
-    border:0px;
-    border-radius: 50%;
-    /* padding:10px; */
-    margin:10px;
-    height:130px;
-    width:130px;
+ul li{
+    list-style-type: none;
+    padding:5px;
+    margin:1px;
+    background-color: #aaa;
 }
-#cw-menuBar{
-    background-color: rgb(241, 241, 241);
-    height:100px;
+#pic-card{
+    width:240px;
+    height:280px;
+    margin:20px;
+    background-color: rgb(248, 248, 248);
 }
-#wraper{
-    margin:10px 30px;
+#pic-card:hover{
+    width:240px;
+    height:280px;
+    margin:20px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 2px 5px rgb(182, 182, 182);
 }
-.Berlin-Font{
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 3px 1px 2px black;
-    font-size: 70px;
-    color:rgb(115, 115, 115);
-}
-
-.topnav{
-    width:100%;
-}
-.topnav > div{
-    float:left;
-    padding: 12px 16px;
-    background-color:#00c056;
-    font-weight: 600;
-    color:#fff;
-}
-.icon{
-    display:none;
-}
-
- 
-
-  
-  
-  /* @media screen and (max-width: 992px) {
-    /* .topnav a:not(:first-child) {display: none;background-color: #333;} * /
-    #navmenu {margin-top:100px;}
-    .Berlin-Font{
-        font-size: 40px;
-    }
-    .topnav a.icon {
-        float: right;
-        display: block;
-      }
-  }
-  @media screen and (max-width: 660px) {
-    .topnav a {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
+#pic-card img{
+    background-color: #fff;
+    width:190px;
+    height:200px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
     
-  }
-  
-  @media screen and (max-width: 660px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-  @media screen and (max-width: 402px) {
-    .Berlin-Font{
-        font-size: 20px;
-        text-shadow: 1px 1px black;
-    }
-  } */
+}
+.sidenav {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav label {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    display: block;
+}
+
+.sidenav label:hover {
+    color: #fff;
+    background-color: #aaa;
+
+}
