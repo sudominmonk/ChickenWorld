@@ -79,7 +79,7 @@ DATABASES = {
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
     'default':{
-        'ENGINE':'django.db.bacends.mysql',
+        'ENGINE':'django.db.backends.mysql',
         'NAME': 'chickenworld',
         'USER': 'cw_user',
         'PASSWORD' : 'password',
